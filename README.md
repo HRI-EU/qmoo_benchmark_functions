@@ -59,3 +59,10 @@ Please cite the original work when using these functions:
 ## License
 The project is licensed under the [BSD-3-Clause License](LICENSE.md).
 
+ ## Acknowledgements 
+ The authors acknowledge funding from the European Union under Horizon Europe Programme, Grant Agreement 101080086 -- NeQST. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission. Neither the European Union nor the granting authority can be held responsible for them.
+
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt-qudits/main/docs/_static/eu_funded_dark.svg" width="25%">
+<img src="https://raw.githubusercontent.com/cda-tum/mqt-qudits/main/docs/_static/eu_funded_light.svg" width="25%" alt="Funded by the European Union">
+</picture>

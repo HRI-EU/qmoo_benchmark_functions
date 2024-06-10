@@ -22,7 +22,7 @@ A typical code example is
     qudits = np.asarray([3,3,3,3,3,3,3,3])
     seed = 7
 
-    ## generate the matriices, linea coefficients and offsets for the two objectives of the FM-AFM problem: 
+    ## generate the matrices, linear coefficients and offsets for the two objectives of the FM-AFM problem: 
     cost_coefficients = problems.generate_problem_ferromagnetic_antiferromagnetic_two_objectives(qudits, seed)    
 
     ## make a first quadratic cost function where the matrix, linear coefficients and offset are given by the first set of entries calculated by the above problem:
@@ -40,7 +40,7 @@ A typical code example is
                                                 c=cost_coefficients[1][1],
                                                 m=cost_coefficients[1][2],
                                             )
-    # calculate objectives / cost for given sample: 
+    # calculate objectives / costs for a given sample: 
     x = np.asarray([1,1,2,1,0,2,1,1])
     obj1 = first_objective_partial(x) ## equals: 4.451314632617248135e-01 
     obj2 = second_objective_partial(x) ## equals: 4.850679296801390095e-01

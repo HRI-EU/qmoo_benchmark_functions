@@ -4,14 +4,14 @@
 This package provides the benchmark functions used in the paper
 Linus Ekstrom, Hao Wang, Sebastian Schmitt *Variational Quantum Multi-Objective Optimization* [arXiv:2312.14151](https://arxiv.org/abs/2312.14151)
 
-It contains three files:
+The two main files are:
 - `qmoo_benchmark_functions.py` This file contains the actual defintion of the benchmark functions.
 - `example_generate_problem_instances.py` This file shows how to use the benchmark problems. 
 As an application, it iterates over all problems, various random seeds and several qudit configurations and creates all solution files for each problem instance and stores them in subfolders which it creates.
 
-Each problem function functions take as input the list of qudits and a random seed. 
-For each value of the random seed a different problems is generated. 
-It returns the matrix and linear coefficients for each objective stored in a list   
+Each problem function takes as input the list of qudits and a random seed. 
+For each value of the random seed a different problem instance is generated. 
+It returns the matrix and linear coefficient vector for each objective stored in a list.   
 
 A typical code example is
 
@@ -60,7 +60,7 @@ Please cite the original work when using these functions:
 The project is licensed under the [BSD-3-Clause License](LICENSE.md).
 
  ## Acknowledgements 
- The authors acknowledge funding from the European Union under Horizon Europe Programme, Grant Agreement 101080086 -- NeQST. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission. Neither the European Union nor the granting authority can be held responsible for them.
+ The authors acknowledge funding from the European Union under Horizon Europe Programme, Grant Agreement 101080086 -- [NeQST](https://neqst-he.eu/). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission. Neither the European Union nor the granting authority can be held responsible for them.
 
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt-qudits/main/docs/_static/eu_funded_dark.svg" width="25%">

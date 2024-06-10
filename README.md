@@ -49,7 +49,7 @@ A typical code example is
 ## Installation
 Just copy the file `qmoo_benchmark_functions.py` to where you want to use the functions or include the appropriate path into PYTHONPATH variable.
 
-## Authors and acknowledgment
+## Authors
 Sebastian Schmitt (HRI-EU) and Linus Ekstrom (HRI-EU) 
 
 ## Terms of usage
